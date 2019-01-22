@@ -1,4 +1,5 @@
 const chalk = require('chalk');
+const path = require('path');
 const fs = require('fs');
 
 const eslintHandle = require('./handles/eslint-handle');
@@ -14,6 +15,9 @@ module.exports = (program) => {
     console.log(chalk.red('找不到 package.json 文件'));
     return;
   }
+  const packageJson = JSON.parse(fs.readFileSync(path.resolve(projectPath, './package.json'), 'utf-8'));
+  console.log(`当前项目: ${packageJson.name}`);
+
 
   addCodeList.forEach((item) => {
     switch (item) {
