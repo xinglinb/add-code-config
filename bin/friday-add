@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const add = require('../src/add');
+
+program
+  .usage('[template-name]')
+  .parse(process.argv);
+
+program.args && !program.args.length && console.log('please add soming');
+program.args && program.args.length && add(program);

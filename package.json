@@ -1,8 +1,7 @@
 {
   "name": "add-code-config",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "add eslint、csscomb...",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,14 +19,14 @@
     "url": "https://github.com/xinglinb/add-code-config/issues"
   },
   "bin": {
-    "add-config": "./src/add-config.js"
+    "friday": "bin/friday"
   },
   "homepage": "https://github.com/xinglinb/add-code-config#readme",
   "devDependencies": {
-    "babel-eslint": "^8.1.2",
-    "eslint": "^4.2.0",
-    "eslint-config-ali": "^2.0.0",
-    "eslint-plugin-babel": "^4.1.1"
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-ali": "^2.0.3",
+    "eslint-plugin-babel": "^4.1.2"
   },
   "dependencies": {
     "chalk": "^2.4.2",
