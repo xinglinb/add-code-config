@@ -1,6 +1,6 @@
 {
   "name": "friday",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "add eslint、csscomb...",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
