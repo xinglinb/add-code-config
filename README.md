@@ -1,2 +1,2 @@
-# add-code-config
+# friday
 add eslint、csscomb ...

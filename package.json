@@ -1,5 +1,5 @@
 {
-  "name": "add-code-config",
+  "name": "friday",
   "version": "1.0.4",
   "description": "add eslint、csscomb...",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xinglinb/add-code-config.git"
+    "url": "git+https://github.com/xinglinb/friday.git"
   },
   "keywords": [
     "eslint",
@@ -16,12 +16,12 @@
   "author": "xingli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xinglinb/add-code-config/issues"
+    "url": "https://github.com/xinglinb/friday/issues"
   },
   "bin": {
     "friday": "bin/friday"
   },
-  "homepage": "https://github.com/xinglinb/add-code-config#readme",
+  "homepage": "https://github.com/xinglinb/friday#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
